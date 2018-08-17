@@ -17,4 +17,3 @@ RUN apt-get update \
 RUN echo "jenkins ALL=NOPASSWD: ALL" >> /etc/sudoers
 COPY entrypoint.sh /
 ENTRYPOINT /entrypoint.sh
-
